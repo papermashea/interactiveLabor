@@ -38,9 +38,6 @@ https://collectiveaction.tech/
 US-based collective actions from workers in the tech industry from Collective Actions in Tech.
 
 <br><br>
-| ![Screenshot of Earthgrain Bakery permanently closed in Alabama](images/img/closed1.png) | ![Screenshot of Overnight Transportation permanently closed in Indiana](images/img/closed2.png) | (![Screenshot of Crown Cork and Seal plants relocating to Mexico, Canada](images/img/closed3.png) |
-
-<br><br>
 ## Other sources
 ### Noun project con starter files
 * [Star by AliWijaya from the Noun Project](https://thenounproject.com)
@@ -54,3 +51,6 @@ US-based collective actions from workers in the tech industry from Collective Ac
 * [U.S. City & State Data from Pareto Software, LLC.](https://simplemaps.com/data/us-cities)
 * [Center for Union Facts](https://www.unionfacts.com/cuf/)
 * [Tech Workers Coalition](https://techworkerscoalition.org/)
+
+<br><br>
+| ![Screenshot of Earthgrain Bakery permanently closed in Alabama](images/img/closed1.png) | ![Screenshot of Overnight Transportation permanently closed in Indiana](images/img/closed2.png) | ![Screenshot of Crown Cork and Seal plants relocating to Mexico, Canada](images/img/closed3.png) |
