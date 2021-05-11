@@ -1,9 +1,8 @@
 # Solidarity in the States
 Mapping labor movements through events, landmarks, leaders, strikes, organizations, and collective tech actions in the United States.
 
-|   |   |   |
-| --- | --- | --- |
-| (images/eg_img/closed1.png) | (images/eg_img/closed2.png) | (images/eg_img/closed3.png) |
+
+| ![Screenshot of Earthgrain Bakery permanently closed in Alabama](images/eg_img/closed1.png) | ![Screenshot of Overnight Transportation permanently closed in Indiana](images/eg_img/closed2.png) | (![Screenshot of Crown Cork and Seal plants relocating to Mexico, Canada]images/eg_img/closed3.png) |
 
 
 ## Events & Leaders

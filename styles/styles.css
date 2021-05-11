@@ -8,14 +8,17 @@ body {
 	height: 100vw;
 }
 
+/****************************************/
 /*MAP*/
+/****************************************/
+
 .leaflet-control-container {
 	position: absolute; 
 	top:0; 
 	bottom:0; 
 	right:0; 
 	left:0; 
-	z-index: 4;
+	/*z-index: 4;*/
 	display: none;
 }
 
@@ -28,9 +31,14 @@ body {
 }
 
 a.leaflet-popup-close-button {
-	background-color: #fff!important;
-	color: #000!important;
+	position: absolute; 
+	background: black!important;
+	color: #fff!important;
+    padding: 10px 5px 0px 0px!important;
 	padding: 10px; 
+	z-index: 800;
+	width: 30px;
+	height: 30px;
 }
 
 /*.leaflet-popup-content-wrapper {
@@ -39,12 +47,16 @@ a.leaflet-popup-close-button {
 }*/
 
 img.label {
-	width: 20px;
+	padding: 5px 20px 10px 5px;
+	width: 20%;
 	height: auto;
+	float: left;
 }
 
 
+/****************************************/
 /*INTRO TEXT AND SIDEBAR*/
+/****************************************/
 
 .sidebar {
 	width: 25%;
@@ -97,43 +109,77 @@ img.label {
 	vertical-align: middle;
 }
 
-
+/****************************************/
 /* TYPOGRAPHY */
+/****************************************/
+
 h1 {
 	font-family: merriweather, serif;
 	font-weight: 700;
 	font-style: normal;
-	font-size: 2.6em;
+	font-size: 2em;
+	line-height: .5;
 }
 
 h2 {
 	font-family: merriweather, serif;
-	font-weight: 400;
+	font-weight: 900;
 	font-style: italic;
-	font-size: 1.4em;	
+	font-size: 4.4em;
+	line-height: 0;
+	text-align: justify;
+	text-justify: inter-character;
 }
 
 h3 {
 	font-family: merriweather, serif;
 	font-weight: 700;
 	font-style: normal;
-	font-size: 1.2em;
-	line-height: 1;	
+	font-size: 21px;
+	vertical-align: middle;
+	width: 80%;
+	float: left;
+	clear: right;
+}
+
+.popupTitle {
+	font-size: 18px!important;
 }
 
 h4, #key {
 	font-family: merriweather, serif;
 	font-weight: 400;
 	font-style: normal;
-	font-size: 1em;	
+	font-size: 16px;	
+}
+
+.subhead {
+	padding-left: 20%;
+}
+
+.details {
+	padding-top: 10px;
+	clear: both;
+}
+
+#deets {
+	font-family: fieldwork-hum, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 14px;
+	line-height: 1.5;	
 }
 
 p {
 	font-family: fieldwork-hum, sans-serif;
 	font-weight: 100;
 	font-style: normal;
-	font-size: 1em;
+	font-size: 14px;
 	line-height: 1.5;	
+}
+
+#descriptionText p {
+  text-indent: 20px;
 }
 
 a#footnote {
@@ -143,3 +189,7 @@ a#footnote {
 	vertical-align: super;
 	font-size: .6em;
 }
+
+/****************************************/
+/* MEDIA QUERIES */
+/****************************************/

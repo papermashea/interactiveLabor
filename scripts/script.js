@@ -73,7 +73,7 @@ $.get('./data/data.csv', function(csvString) {
         if (row.tag == "Event") {
           var eventMarker = L.marker([row.lat, row.long], {
             icon: eventIcon
-          }).bindPopup('<h3><img class="label" src="./images/eventIcon.png">' + "Historic " + row.title + " of " + row.year + '</h3>'
+          }).bindPopup('<img class="label" src="./images/eventIcon.png"><h3 class="popupTitle">' + "Historic " + row.title + " of " + row.year + '</h3>'
                       + '<p class="details">' + row.details + '</p>');
           eventMarker.addTo(map);        
         };
@@ -82,8 +82,8 @@ $.get('./data/data.csv', function(csvString) {
         if (row.tag == "Landmark") {
           var landMarker = L.marker([row.lat, row.long], {
             icon: landIcon
-          }).bindPopup('<h3><img class="label" src="./images/landIcon.png">' + row.title + "</span>"  + '<span id="year"> created in ' + row.year + "</span>"+ '</h3>'
-                      // + '<h4>' + row.title + '</h4>'
+          }).bindPopup('<img class="label" src="./images/landIcon.png"><h3 class="popupTitle">' + row.title + "</span>"  + '<span id="year"> created in ' + row.year + "</span>"+ '</h3>'
+                      // + '<h4 class="subhead">' + row.title + '</h4>'
                       + '<p class="details"><span id="deets"> ' + '</span>' + row.details + '</p>');
           landMarker.addTo(map);        
         };
@@ -92,7 +92,7 @@ $.get('./data/data.csv', function(csvString) {
         if (row.tag == "Leader") {
           var leaderMarker = L.marker([row.lat, row.long], {
             icon: leaderIcon
-          }).bindPopup('<h3><img class="label" src="./images/leaderIcon.png">' + row.year + ": " + "<span id='tag'>Labor " + row.tag + '</h3>'
+          }).bindPopup('<img class="label" src="./images/leaderIcon.png"><h3 class="popupTitle">' + row.year + "<span id='tag'> " + row.tag + 'ship</h3>'
                       + '<p class="details"><span id="deets">Details: ' + '</span>' + row.details + '</p>');
           leaderMarker.addTo(map);        
         };
@@ -101,7 +101,7 @@ $.get('./data/data.csv', function(csvString) {
         if (row.tag == "Organization") {
           var orgMarker = L.marker([row.lat, row.long], {
             icon: orgIcon
-          }).bindPopup('<h3><img class="label" src="./images/orgIcon.png">' + row.title + " created " + row.year + '</h3>'
+          }).bindPopup('<img class="label" src="./images/orgIcon.png"><h3 class="popupTitle">' + row.title + " created " + row.year + '</h3>'
                       + '<p class="details"><span id="deets">Details: ' + '</span>' + row.details + '</p>');
           orgMarker.addTo(map);        
         };
@@ -110,8 +110,8 @@ $.get('./data/data.csv', function(csvString) {
         if (row.tag == "Strike") {
           var strikeMarker = L.marker([row.lat, row.long], {
             icon: strikeIcon
-          }).bindPopup('<h3><img class="label" src="./images/strikeIcon.png">' + row.year + " " + row.title + " " + "<span id='tag'>" + row.tag + '</h3>'
-                      + '<h4>' + row.people + ' workers</h4>'
+          }).bindPopup('<img class="label" src="./images/strikeIcon.png"><h3 class="popupTitle">' + row.year + " " + row.title + " " + "<span id='tag'>" + row.tag + '</h3>'
+                      + '<h4 class="subhead">' + row.people + ' workers</h4>'
                       + '<p class="details"><span id="deets">Details: ' + '</span>' + row.details + '</p>');
           strikeMarker.addTo(map);        
         };
@@ -120,7 +120,7 @@ $.get('./data/data.csv', function(csvString) {
         if (row.tag == "Tech") {
           var techMarker = L.marker([row.lat, row.long], {
             icon: techIcon
-          }).bindPopup('<h3><img class="label" src="./images/techIcon.png">' + row.title + ", " + row.year + '</h3>'
+          }).bindPopup('<img class="label" src="./images/techIcon.png"><h3 class="popupTitle">' + row.title + ", " + row.year + '</h3>'
                       + '<p class="details"><span id="deets">Details: ' + '</span>' + row.details + '</p>');
           techMarker.addTo(map);
         };
