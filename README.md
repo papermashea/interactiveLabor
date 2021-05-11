@@ -1,45 +1,44 @@
-# Solidarity in the States
+# United States of Solidarity
 Mapping labor movements through events, landmarks, leaders, strikes, organizations, and collective tech actions in the United States.
 
+![Image of labor map with icons](images/img/Map.png)
 
-| ![Screenshot of Earthgrain Bakery permanently closed in Alabama](images/eg_img/closed1.png) | ![Screenshot of Overnight Transportation permanently closed in Indiana](images/eg_img/closed2.png) | (![Screenshot of Crown Cork and Seal plants relocating to Mexico, Canada]images/eg_img/closed3.png) |
-
-
+<br>
 ## Events & Leaders
 https://aflcio.org/about-us/history
 https://aflcio.org/about/history/labor-history-people
-
+<br>
 Key events and leadership from the American Federation of Labor and Congress of Industrial Organizations (AFL-CIO), the largest federation of unions in the United States.
 
-
+<br><br>
 ## Events & Organizations
 https://depts.washington.edu/iww/yearbook_intro.shtml
 https://depts.washington.edu/iww/locals.shtml
-
+<br>
 Events and local chapters from the IWWW (International Workers of the World) from 1905-1935.
 
-
+<br><br>
 ## Landmarks
 https://www.laborheritage.org/inventory-of-american-labor-landmarks/
-
+<br>
 Labor Landmarks archived by the Labor Heritage Foundation, a non-profit organization which preserves and disseminates information and artifacts about the labor history of the United States 1
 
-
+<br><br>
 ## Strikes
 https://www.bls.gov/web/wkstp/monthly-listing.htm
-
+<br>
 Work stoppages involving 1,000 or more workers, 1993-Present from the U.S. Bureau of Labor Statistics.
 
-
+<br><br>
 ## Tech Collective Action
 https://collectiveaction.tech/
-
+<br>
 US-based collective actions from workers in the tech industry from Collective Actions in Tech.
 
+<br><br>
+| ![Screenshot of Earthgrain Bakery permanently closed in Alabama](images/img/closed1.png) | ![Screenshot of Overnight Transportation permanently closed in Indiana](images/img/closed2.png) | (![Screenshot of Crown Cork and Seal plants relocating to Mexico, Canada]images/img/closed3.png) |
 
-
-
-
+<br>
 ## Other sources
 ### Noun project con starter files
 * [Star by AliWijaya from the Noun Project](https://thenounproject.com)
