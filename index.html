@@ -3,34 +3,68 @@
 <head>
   <title>Interactive Labor</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--   <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' /> -->
   <meta charset="utf-8">
-  <link href="styles/styles.css" rel="stylesheet"> 
-  <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+
+  <!-- Load Styles -->  
+  <link rel="stylesheet" href="styles/styles.css"> 
+  <link rel="stylesheet" href='https://api.mapbox.com/mapbox.js/v3.3.1/mapbox.css'/>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"/>
+  <link rel="stylesheet" href="https://use.typekit.net/spw0cvk.css">
+
 
 </head>
 <body>
-
-<!--   <div id="sidebar">
-      <div id="title"></div>
-      <div id="descriptionText"></div>
-   </div>   -->
+<div class="body-container">
+  <div id="sidebar">
+      <h1 id="title">Solidarity in the States</h1>
+      <div id="descriptionText">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+      <div id="key">
+        <input type="checkbox" id="markers" name="events" checked>
+            <label for="events">
+              <span>Events</span>
+            </label>
+        <input type="checkbox" id="markers" name="landmarks" checked>
+            <label for="landmarks">
+              <span>Landmarks</span>
+            </label>
+        <input type="checkbox" id="markers" name="leaders" checked>
+            <label for="leaders">
+              <span>Leaders</span>
+            </label>
+        <input type="checkbox" id="markers" name="orgs" checked>
+            <label for="orgs">
+              <span>Organizations</span>
+            </label>                        
+        <input type="checkbox" id="markers" name="strikes" checked>
+            <label for="strikes">
+              <span>Strikes</span>
+            </label>
+        <input type="checkbox" id="markers" name="tech" checked>
+            <label for="tech">
+              <span>Tech Collective Action</span>
+            </label>
+      </div>
+   </div>  
 
   <div id="map"></div>
+</div>
 
 
   <!-- Load Leaflet code library - see updates at http://leafletjs.com/download.html -->
   <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"/>
 
   <!-- Load jQuery and PapaParse to read data from a CSV file -->
   <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.0/papaparse.min.js"></script>
 
-  <!-- Load Mapbox and Mapbox styles -->
+  <!-- Load Mapbox -->
   <script src='https://api.mapbox.com/mapbox.js/v3.3.1/mapbox.js'></script>
-  <link href='https://api.mapbox.com/mapbox.js/v3.3.1/mapbox.css' rel='stylesheet' />
 
   <!-- Load scripts -->
+  <script src='scripts/input.js' type=""></script> 
   <script src='scripts/script.js' type=""></script> 
 
 </body>
