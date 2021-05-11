@@ -9,6 +9,7 @@ body {
 	bottom:0; 
 	right:0; 
 	left:0; 
+	width: 100%;
 }
 
 /*#sidebar {
@@ -17,3 +18,27 @@ body {
 	float: left;
 }
 */
+
+.leaflet-popup-tip-container {
+	display: none;
+}
+
+/*img.eventIcon {
+	display: none;
+}*/
+
+img.landIcon {
+	display: none;
+}
+
+img.leaderIcon {
+	display: none;
+}
+
+img.strikeIcon {
+	display: none;
+}
+
+img.orgIcon {
+	display: none;
+}
