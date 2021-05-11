@@ -16,7 +16,9 @@
 </head>
 <body>
 <div class="body-container">
+  <a href="#show" class="button" id="showButton">+</a>
 <div class="sidebar">
+  <a href="#hide" class="button" id="hideButton">x</a>
   <div class="intro">
       <h1 id="title">The United States of </h1>
       <h2 id="title">Solidarity</h2>
@@ -31,7 +33,7 @@
         <div class="pin">
           <img src="./images/strikeIcon.png" id="strikeIcon">
               <label class="strikes"for="strikes">
-                <span>Strikes</span><a href="https://www.bls.gov/web/wkstp/monthly-listing.htm" id="footnote" target="_blank">1</a>
+                <span class="tags">Strikes</span><a href="https://www.bls.gov/web/wkstp/monthly-listing.htm" id="footnote" target="_blank">1</a>
               </label>
           <input type="checkbox" id="strikes" name="strikes" checked>
         </div>
@@ -39,7 +41,7 @@
         <div class="pin">
           <img src="./images/orgIcon.png" id="orgIcon">
               <label for="orgs">
-                <span>Organizations</span><a href="https://depts.washington.edu/iww/locals.shtml" id="footnote" target="_blank">2</a>
+                <span class="tags">Organizations</span><a href="https://depts.washington.edu/iww/locals.shtml" id="footnote" target="_blank">2</a>
               </label>                        
           <input type="checkbox" id="orgs" name="orgs" checked>
         </div>
@@ -47,7 +49,7 @@
         <div class="pin">
           <img src="./images/eventIcon.png" id="eventIcon">
               <label for="events">
-                <span>Historic events</span><a href="https://aflcio.org/about-us/history" id="footnote" target="_blank">3,</a><a href="https://depts.washington.edu/iww/yearbook_intro.shtml" id="footnote" target="_blank">4</a>
+                <span class="tags">Historic events</span><a href="https://aflcio.org/about-us/history" id="footnote" target="_blank">3,</a><a href="https://depts.washington.edu/iww/yearbook_intro.shtml" id="footnote" target="_blank">4</a>
               </label>
           <input type="checkbox" id="events" name="events" checked>
         </div>
@@ -55,7 +57,7 @@
         <div class="pin">
           <img src="./images/leaderIcon.png" id="leaderIcon">
               <label for="leaders">
-                <span>Leadership</span><a href="https://aflcio.org/about-us/history" id="footnote" target="_blank">5</a>
+                <span class="tags">Leadership</span><a href="https://aflcio.org/about-us/history" id="footnote" target="_blank">5</a>
               </label>
           <input type="checkbox" id="leaders" name="leaders" checked>
         </div>
@@ -63,7 +65,7 @@
         <div class="pin">
           <img src="./images/techIcon.png" id="techIcon">
               <label for="tech">
-                <span>Tech collective action</span><a href="https://collectiveaction.tech/" id="footnote" target="_blank">6</a>
+                <span class="tags">Tech collective action</span><a href="https://collectiveaction.tech/" id="footnote" target="_blank">6</a>
               </label>
           <input type="checkbox" id="tech" name="tech" checked>
         </div>
@@ -71,7 +73,7 @@
         <div class="pin">
           <img src="./images/landIcon.png" id="landIcon">
               <label for="landmarks">
-                <span>Labor landmarks</span><a href="https://www.laborheritage.org/inventory-of-american-labor-landmarks/" id="footnote" target="_blank">7</a>
+                <span class="tags">Labor landmarks</span><a href="https://www.laborheritage.org/inventory-of-american-labor-landmarks/" id="footnote" target="_blank">7</a>
               </label>
           <input type="checkbox" id="landmarks" name="landmarks" checked>
         </div>

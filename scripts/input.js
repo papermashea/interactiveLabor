@@ -23,5 +23,8 @@ $(document).ready(function() {
         $(".techIcon").toggle(this.checked);
     }).triggerHandler('click');
 
+    $('#hideButton').click(function(){
+      $('#sidebar').toggle('#hide');
+        });
 
 });

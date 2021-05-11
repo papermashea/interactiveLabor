@@ -4,8 +4,8 @@ body {
 }
 
 .body-container {
-	width: 100vw;
-	height: 100vw;
+	width: 100%;
+	height: 100%;
 }
 
 /****************************************/
@@ -53,143 +53,443 @@ img.label {
 	float: left;
 }
 
-
-/****************************************/
-/*INTRO TEXT AND SIDEBAR*/
-/****************************************/
-
-.sidebar {
-	width: 25%;
-	height: 100%;
-	position: absolute; 
-	top:0; 
-	bottom:0; 
-	right:0; 
-	left:0; 
-	z-index: 2;
-	margin: 0;
-	padding: 2%;
-	background-color: rgba(255,255,255,0.8);
-	color: #000;
-	box-shadow: 4px 4px 4px .5px rgba(0, 0, 0, 0.2);
+.button {
+	display: none;
 }
 
-.intro {
-	width: 75%;
-	height: 100%;
-	padding: 2%;
+#show {
+  display: block;
 }
 
-#map { 
-	position: absolute; 
-	top:0; 
-	bottom:0; 
-	right:0; 
-	left:0; 
-	width: 100%;
-	height: 100%;
-	z-index: 1;
-}
-
-#key {
-	color: #000;
-}
-
-#key img {
-	height: 30px;
-	width: auto;
-	padding: 5px 10px;
-	vertical-align: middle;
-}
-
-.pin {
-	width: 100%;
-	height: 70px;
-	padding: 10px 0;
-	vertical-align: middle;
-}
-
-/****************************************/
-/* TYPOGRAPHY */
-/****************************************/
-
-h1 {
-	font-family: merriweather, serif;
-	font-weight: 700;
-	font-style: normal;
-	font-size: 2em;
-	line-height: .5;
-}
-
-h2 {
-	font-family: merriweather, serif;
-	font-weight: 900;
-	font-style: italic;
-	font-size: 4.4em;
-	line-height: 0;
-	text-align: justify;
-	text-justify: inter-character;
-}
-
-h3 {
-	font-family: merriweather, serif;
-	font-weight: 700;
-	font-style: normal;
-	font-size: 21px;
-	vertical-align: middle;
-	width: 80%;
-	float: left;
-	clear: right;
-}
-
-.popupTitle {
-	font-size: 18px!important;
-}
-
-h4, #key {
-	font-family: merriweather, serif;
-	font-weight: 400;
-	font-style: normal;
-	font-size: 16px;	
-}
-
-.subhead {
-	padding-left: 20%;
-}
-
-.details {
-	padding-top: 10px;
-	clear: both;
-}
-
-#deets {
-	font-family: fieldwork-hum, sans-serif;
-	font-weight: 400;
-	font-style: normal;
-	font-size: 14px;
-	line-height: 1.5;	
-}
-
-p {
-	font-family: fieldwork-hum, sans-serif;
-	font-weight: 100;
-	font-style: normal;
-	font-size: 14px;
-	line-height: 1.5;	
-}
-
-#descriptionText p {
-  text-indent: 20px;
-}
-
-a#footnote {
-	padding: 3px;
-	font-style: italic;
-	text-decoration: none;
-	vertical-align: super;
-	font-size: .6em;
+#hide {
+  display: none;
 }
 
 /****************************************/
 /* MEDIA QUERIES */
+/* xl : 1785;
+/* l : 1201;
+/* m : 1025px;	
+/* s : 769px;
+/* xs : 320px;
 /****************************************/
+
+/* SMALL SCREENS */
+@media only screen and (min-width: 320px) and (max-width: 819px) {
+
+	/****************************************/
+	/*INTRO TEXT AND SIDEBAR*/
+	/****************************************/
+
+	.sidebar {
+		width: 100%;
+		height: 70%;
+		position: absolute; 
+		top:0; 
+		bottom:0; 
+		right:0; 
+		left:0; 
+		z-index: 2;
+		margin: 0;
+		padding: 2%;
+		background-color: rgba(255,255,255,0.8);
+		color: #000;
+		box-shadow: 4px 4px 4px .5px rgba(0, 0, 0, 0.2);
+	}
+
+	.intro {
+		width: 90%;
+		height: 100%;
+		padding: 1%;
+	}
+
+	#map { 
+		position: absolute; 
+		top:0; 
+		bottom:0; 
+		right:0; 
+		left:0; 
+		width: 100%;
+		height: 100%;
+		z-index: 1;
+	}
+
+	#key {
+		color: #000;
+	}
+
+	#key img {
+		height: 30px;
+		width: auto;
+		padding: 5px 10px;
+		vertical-align: middle;
+	}
+
+	.pin {
+		width: 100%;
+		height: 30px;
+		padding: 5px 0;
+		vertical-align: middle;
+	}
+
+	/****************************************/
+	/* TYPOGRAPHY */
+	/****************************************/
+
+	h1 {
+		font-family: merriweather, serif;
+		font-weight: 700;
+		font-style: normal;
+		font-size: 1.6em;
+		line-height: .5;
+	}
+
+	h2 {
+		font-family: merriweather, serif;
+		font-weight: 900;
+		font-style: italic;
+		font-size: 4em;
+		line-height: 0;
+		text-align: justify;
+		text-justify: inter-character;
+	}
+
+	h3 {
+		font-family: merriweather, serif;
+		font-weight: 700;
+		font-style: normal;
+		font-size: 2em;
+		vertical-align: middle;
+		width: 80%;
+		float: left;
+		clear: right;
+	}
+
+	.popupTitle {
+		font-size: 18px!important;
+	}
+
+	h4, .tags {
+		font-family: merriweather, serif;
+		font-weight: 400;
+		font-style: normal;
+		font-size: 1em;	
+	}
+
+	.subhead {
+		padding-left: 20%;
+	}
+
+	.details {
+		padding-top: 10px;
+		clear: both;
+	}
+
+	#deets {
+		font-family: fieldwork-hum, sans-serif;
+		font-weight: 400;
+		font-style: normal;
+		font-size: .8em;
+		line-height: 1.5;	
+	}
+
+	p {
+		font-family: fieldwork-hum, sans-serif;
+		font-weight: 100;
+		font-style: normal;
+		font-size: .8em;
+		line-height: 1;	
+	}
+
+	#descriptionText p {
+	  text-indent: 20px;
+	}
+
+	a#footnote {
+		padding: 3px;
+		font-style: italic;
+		text-decoration: none;
+		vertical-align: super;
+		font-size: .6em;
+	}
+}
+
+/* MEDIUM SCREENS */
+@media only screen and (min-width: 820px) and (max-width: 1200px) {
+
+	/****************************************/
+	/*INTRO TEXT AND SIDEBAR*/
+	/****************************************/
+
+	.sidebar {
+		width: 35%;
+		height: 100%;
+		position: absolute; 
+		top:0; 
+		bottom:0; 
+		right:0; 
+		left:0; 
+		z-index: 2;
+		margin: 0;
+		padding: 2%;
+		background-color: rgba(255,255,255,0.8);
+		color: #000;
+		box-shadow: 4px 4px 4px .5px rgba(0, 0, 0, 0.2);
+	}
+
+	.intro {
+		width: 90%;
+		height: 100%;
+		padding: 1%;
+	}
+
+	#map { 
+		position: absolute; 
+		top:0; 
+		bottom:0; 
+		right:0; 
+		left:0; 
+		width: 100%;
+		height: 100%;
+		z-index: 1;
+	}
+
+	#key {
+		color: #000;
+	}
+
+	#key img {
+		height: 30px;
+		width: auto;
+		padding: 5px 10px;
+		vertical-align: middle;
+	}
+
+	.pin {
+		width: 100%;
+		height: 30px;
+		padding: 5px 0;
+		vertical-align: middle;
+	}
+
+	/****************************************/
+	/* TYPOGRAPHY */
+	/****************************************/
+
+	h1 {
+		font-family: merriweather, serif;
+		font-weight: 700;
+		font-style: normal;
+		font-size: 1.6em;
+		line-height: .5;
+	}
+
+	h2 {
+		font-family: merriweather, serif;
+		font-weight: 900;
+		font-style: italic;
+		font-size: 4em;
+		line-height: 0;
+		text-align: justify;
+		text-justify: inter-character;
+	}
+
+	h3 {
+		font-family: merriweather, serif;
+		font-weight: 700;
+		font-style: normal;
+		font-size: 2em;
+		vertical-align: middle;
+		width: 80%;
+		float: left;
+		clear: right;
+	}
+
+	.popupTitle {
+		font-size: 18px!important;
+	}
+
+	h4, .tags {
+		font-family: merriweather, serif;
+		font-weight: 400;
+		font-style: normal;
+		font-size: 1em;	
+	}
+
+	.subhead {
+		padding-left: 20%;
+	}
+
+	.details {
+		padding-top: 10px;
+		clear: both;
+	}
+
+	#deets {
+		font-family: fieldwork-hum, sans-serif;
+		font-weight: 400;
+		font-style: normal;
+		font-size: .8em;
+		line-height: 1.5;	
+	}
+
+	p {
+		font-family: fieldwork-hum, sans-serif;
+		font-weight: 100;
+		font-style: normal;
+		font-size: .8em;
+		line-height: 1;	
+	}
+
+	#descriptionText p {
+	  text-indent: 20px;
+	}
+
+	a#footnote {
+		padding: 3px;
+		font-style: italic;
+		text-decoration: none;
+		vertical-align: super;
+		font-size: .6em;
+	}
+}
+
+/* LARGE SCREENS */
+@media only screen and (min-width: 1201px) {
+
+	/****************************************/
+	/*INTRO TEXT AND SIDEBAR*/
+	/****************************************/
+
+	.sidebar {
+		width: 35%;
+		height: 100%;
+		position: absolute; 
+		top:0; 
+		bottom:0; 
+		right:0; 
+		left:0; 
+		z-index: 2;
+		margin: 0;
+		padding: 1%;
+		background-color: rgba(255,255,255,0.8);
+		color: #000;
+		box-shadow: 4px 4px 4px .5px rgba(0, 0, 0, 0.2);
+	}
+
+	.intro {
+		width: 80%;
+		height: 100%;
+		padding: 1%;
+	}
+
+	#map { 
+		position: absolute; 
+		top:0; 
+		bottom:0; 
+		right:0; 
+		left:0; 
+		width: 100%;
+		height: 100%;
+		z-index: 1;
+	}
+
+	#key {
+		color: #000;
+	}
+
+	#key img {
+		height: 30px;
+		width: auto;
+		padding: 5px 10px;
+		vertical-align: middle;
+	}
+
+	.pin {
+		width: 100%;
+		height: 40px;
+		padding: 10px 0;
+		vertical-align: middle;
+	}
+
+	/****************************************/
+	/* TYPOGRAPHY */
+	/****************************************/
+
+	h1 {
+		font-family: merriweather, serif;
+		font-weight: 700;
+		font-style: normal;
+		font-size: 1.8em;
+		line-height: .5;
+	}
+
+	h2 {
+		font-family: merriweather, serif;
+		font-weight: 900;
+		font-style: italic;
+		font-size: 4em;
+		line-height: 0;
+		text-align: justify;
+		text-justify: inter-character;
+	}
+
+	h3 {
+		font-family: merriweather, serif;
+		font-weight: 700;
+		font-style: normal;
+		font-size: 2em;
+		vertical-align: middle;
+		width: 80%;
+		float: left;
+		clear: right;
+	}
+
+	.popupTitle {
+		font-size: 18px!important;
+	}
+
+	h4, .tags {
+		font-family: merriweather, serif;
+		font-weight: 400;
+		font-style: normal;
+		font-size: 1em;	
+	}
+
+	.subhead {
+		padding-left: 20%;
+	}
+
+	.details {
+		padding-top: 10px;
+		clear: both;
+	}
+
+	#deets {
+		font-family: fieldwork-hum, sans-serif;
+		font-weight: 400;
+		font-style: normal;
+		font-size: .8em;
+		line-height: 1.5;	
+	}
+
+	p {
+		font-family: fieldwork-hum, sans-serif;
+		font-weight: 100;
+		font-style: normal;
+		font-size: .8em;
+		line-height: 1.5;	
+	}
+
+	#descriptionText p {
+	  text-indent: 20px;
+	}
+
+	a#footnote {
+		padding: 3px;
+		font-style: italic;
+		text-decoration: none;
+		vertical-align: super;
+		font-size: .6em;
+	}
+}
