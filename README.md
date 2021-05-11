@@ -1,9 +1,8 @@
 # Solidarity in the States
 Mapping labor movements through events, landmarks, leaders, strikes, organizations, and collective tech actions in the United States.
 
-![Labor shifts in the US](images/eg_img/closed1.png)
-![Labor shifts in the US](images/eg_img/closed2.png)
-![Labor shifts in the US](images/eg_img/closed3.png)
+
+| (images/eg_img/closed1.png) | (images/eg_img/closed2.png) | (images/eg_img/closed3.png) |
 
 
 ## Events & Leaders
