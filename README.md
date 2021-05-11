@@ -1,7 +1,8 @@
 # Solidarity in the States
 Mapping labor movements through events, landmarks, leaders, strikes, organizations, and collective tech actions in the United States.
 
-
+|   |   |   |
+| --- | --- | --- |
 | (images/eg_img/closed1.png) | (images/eg_img/closed2.png) | (images/eg_img/closed3.png) |
 
 
@@ -37,8 +38,11 @@ https://collectiveaction.tech/
 US-based collective actions from workers in the tech industry from Collective Actions in Tech.
 
 
+
+
+
 ## Other sources
-###Noun project con starter files
+### Noun project con starter files
 * [Star by AliWijaya from the Noun Project](https://thenounproject.com)
 * [memorial by RomStu from the Noun Project](https://thenounproject.com)
 * [speech-bubble by Alex Fuller from the Noun Project](https://thenounproject.com)
@@ -46,7 +50,7 @@ US-based collective actions from workers in the tech industry from Collective Ac
 * [Warning by Dillon Arloff from the Noun Project](https://thenounproject.com)
 * [Tech by Icongeek26 from the Noun Project](https://thenounproject.com/)
 
-###Misc. sources
+### Misc. sources
 * [U.S. City & State Data from Pareto Software, LLC.](https://simplemaps.com/data/us-cities)
 * [Center for Union Facts](https://www.unionfacts.com/cuf/)
 * [Tech Workers Coalition](https://techworkerscoalition.org/)

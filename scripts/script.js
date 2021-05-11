@@ -2,7 +2,7 @@
 L.mapbox.accessToken = 'pk.eyJ1IjoicGFwZXJtYXNoZWEiLCJhIjoiY2szbnh6bGI4MXY1cjNjbjFkMnZvcjQ1ayJ9.MKO-bDpbg-5sZ2sIN8MJ5Q';
 
 var map = L.mapbox.map('map')
-    .setView([44.471,-99.294], 5);
+    .setView([42.101,-94.985], 4.5);
 
 L.mapbox.styleLayer('mapbox://styles/papermashea/ckoi0cbxo0i1918ofoje3lak1').addTo(map);
 
