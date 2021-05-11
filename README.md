@@ -1,9 +1,11 @@
-# United States of Solidarity
-Mapping labor movements through events, landmarks, leaders, strikes, organizations, and collective tech actions in the United States.
-
 ![Image of labor map with icons](images/img/Map.png)
 
-<br>
+
+# United States of Solidarity
+Mapping labor movements through events, landmarks, leaders, strikes, organizations, and collective tech actions in the United States. It was largely inspired by the NYT's repeated surprise that labor movements come out of the south:
+* ["Amazon Union Drive Takes Hold in Unlikely Place," New York Times, January 25, 2021](https://www.nytimes.com/2021/01/25/business/amazon-union-alabama.html)
+
+<br><br>
 ## Events & Leaders
 https://aflcio.org/about-us/history
 https://aflcio.org/about/history/labor-history-people
@@ -36,9 +38,9 @@ https://collectiveaction.tech/
 US-based collective actions from workers in the tech industry from Collective Actions in Tech.
 
 <br><br>
-| ![Screenshot of Earthgrain Bakery permanently closed in Alabama](images/img/closed1.png) | ![Screenshot of Overnight Transportation permanently closed in Indiana](images/img/closed2.png) | (![Screenshot of Crown Cork and Seal plants relocating to Mexico, Canada]images/img/closed3.png) |
+| ![Screenshot of Earthgrain Bakery permanently closed in Alabama](images/img/closed1.png) | ![Screenshot of Overnight Transportation permanently closed in Indiana](images/img/closed2.png) | (![Screenshot of Crown Cork and Seal plants relocating to Mexico, Canada](images/img/closed3.png) |
 
-<br>
+<br><br>
 ## Other sources
 ### Noun project con starter files
 * [Star by AliWijaya from the Noun Project](https://thenounproject.com)
@@ -48,7 +50,7 @@ US-based collective actions from workers in the tech industry from Collective Ac
 * [Warning by Dillon Arloff from the Noun Project](https://thenounproject.com)
 * [Power by Yoteyo from the Noun Project](https://thenounproject.com/search/?q=power&i=1711145)
 
-### Misc. sources
+### Resources
 * [U.S. City & State Data from Pareto Software, LLC.](https://simplemaps.com/data/us-cities)
 * [Center for Union Facts](https://www.unionfacts.com/cuf/)
 * [Tech Workers Coalition](https://techworkerscoalition.org/)
