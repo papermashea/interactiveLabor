@@ -1,10 +1,10 @@
 ![Image of labor map with icons](images/img/Map.png)
-
+*[Explore the project](https://papermashea.github.io/interactiveLabor/)*
 
 # United States of Solidarity
 Mapping labor movements through events, landmarks, leaders, strikes, organizations, and collective tech actions in the United States. It was largely inspired by the NYT's repeated surprise that labor movements come out of the south:
 * ["Amazon Union Drive Takes Hold in Unlikely Place," New York Times, January 25, 2021](https://www.nytimes.com/2021/01/25/business/amazon-union-alabama.html)
-* [""Big Tech's Unlikely Next Battleground: North Dakota," New York Times, February 14, 2021](https://www.nytimes.com/2021/02/14/technology/north-dakota-tech-apps.html)
+* ["Big Tech's Unlikely Next Battleground: North Dakota," New York Times, February 14, 2021](https://www.nytimes.com/2021/02/14/technology/north-dakota-tech-apps.html)
 
 
 <br><br>
