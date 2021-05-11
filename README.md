@@ -1,35 +1,53 @@
-# leaflet-map-csv
-Build a simple Leaflet map with point markers from a CSV file.
+# Solidarity in the States
+Mapping labor movements through events, landmarks, leaders, strikes, organizations, and collective tech actions in the United States.
 
-![Screenshot](leaflet-map-csv.png)
+![Labor shifts in the US](images/eg_img_closed1.png)
+![Labor shifts in the US](images/eg_img_closed2.png)
+![Labor shifts in the US](images/eg_img_closed3.png)
 
-## Demo
-https://handsondataviz.github.io/leaflet-map-csv/
 
-Sample data of select universities and colleges around CT by HandsOnDataViz.
+## Events & Leaders
+https://aflcio.org/about-us/history
+https://aflcio.org/about/history/labor-history-people
 
-## Make your own
+Key events and leadership from the American Federation of Labor and Congress of Industrial Organizations (AFL-CIO), the largest federation of unions in the United States.
 
-1. Press **Use this template** button to create a copy of this repository in your own GitHub account.
-2. Put your point data data inside `data.csv`. The only relevant columns that will be read by the template
-are `Latitude`, `Longitude`, and `Title` (displayed in a popup). Sample data:
-```
-Title,Latitude,Longitude
-Trinity College,41.745167,-72.69263
-Wesleyan University,41.55709,-72.65691
-```
 
-For more information on customization, see [Leaflet documentation](https://leafletjs.com/).
+## Events & Organizations
+https://depts.washington.edu/iww/yearbook_intro.shtml
+https://depts.washington.edu/iww/locals.shtml
 
-## HandsOnDataViz Tutorial
-https://handsondataviz.org/leaflet-maps-with-csv.html
+Events and local chapters from the IWWW (International Workers of the World) from 1905-1935.
 
-## See other Leaflet templates
-* [Simple Leaflet map](https://github.com/HandsOnDataViz/leaflet-map-simple)
-* [Leaflet map with open data APIs](https://github.com/HandsOnDataViz/leaflet-maps-open-data-apis)
-* [Leaflet map with data from Socrata](https://github.com/HandsOnDataViz/leaflet-socrata)
-* [Leaflet polygon map with tabs](https://github.com/HandsOnDataViz/leaflet-map-polygon-tabs)
-* [Leaflet heatmap](https://github.com/HandsOnDataViz/leaflet-heatmap)
-* [Searcheable Map Template](https://github.com/HandsOnDataViz/searchable-map-template-csv)
-* [Leaflet Maps with Google Sheets](https://github.com/HandsOnDataViz/leaflet-maps-with-google-sheets)
-* [Leaflet Storymaps with Google Sheets](https://github.com/HandsOnDataViz/leaflet-storymaps-with-google-sheets)
+
+## Landmarks
+https://www.laborheritage.org/inventory-of-american-labor-landmarks/
+
+Labor Landmarks archived by the Labor Heritage Foundation, a non-profit organization which preserves and disseminates information and artifacts about the labor history of the United States 1
+
+
+## Strikes
+https://www.bls.gov/web/wkstp/monthly-listing.htm
+
+Work stoppages involving 1,000 or more workers, 1993-Present from the U.S. Bureau of Labor Statistics.
+
+
+## Tech Collective Action
+https://collectiveaction.tech/
+
+US-based collective actions from workers in the tech industry from Collective Actions in Tech.
+
+
+### Other sources
+**Noun project con starter files**
+* [Star by AliWijaya from the Noun Project](https://thenounproject.com)
+* [memorial by RomStu from the Noun Project](https://thenounproject.com)
+* [speech-bubble by Alex Fuller from the Noun Project](https://thenounproject.com)
+* [Fist by matias porta lezcano from the Noun Project](https://thenounproject.com)
+* [Warning by Dillon Arloff from the Noun Project](https://thenounproject.com)
+* [Tech by Icongeek26 from the Noun Project](https://thenounproject.com/)
+
+**Misc. sources**
+* [U.S. City & State Data from Pareto Software, LLC.](https://simplemaps.com/data/us-cities)
+* [Center for Union Facts](https://www.unionfacts.com/cuf/)
+* [Tech Workers Coalition](https://techworkerscoalition.org/)
