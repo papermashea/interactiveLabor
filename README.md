@@ -39,12 +39,15 @@ US-based collective actions from workers in the tech industry from Collective Ac
 
 <br><br>
 ## Other sources
-### Noun project con starter files
-* [Star by AliWijaya from the Noun Project](https://thenounproject.com)
-* [memorial by RomStu from the Noun Project](https://thenounproject.com)
-* [speech-bubble by Alex Fuller from the Noun Project](https://thenounproject.com)
-* [Fist by matias porta lezcano from the Noun Project](https://thenounproject.com)
-* [Warning by Dillon Arloff from the Noun Project](https://thenounproject.com)
+
+<br>
+
+### Noun project icon starter files
+* [Star by AliWijaya from the Noun Project](https://thenounproject.com/search/?q=star&i=1171152)
+* [memorial by RomStu from the Noun Project](https://thenounproject.com/search/?q=flag&i=2472522)
+* [speech-bubble by Alex Fuller from the Noun Project](https://thenounproject.com/search/?q=speech&i=10604)
+* [Fist by matias porta lezcano from the Noun Project](https://thenounproject.com/search/?q=fist&i=25439)
+* [Warning by Dillon Arloff from the Noun Project](https://thenounproject.com/search/?q=warning&i=199825)
 * [Power by Yoteyo from the Noun Project](https://thenounproject.com/search/?q=power&i=1711145)
 
 ### Resources
