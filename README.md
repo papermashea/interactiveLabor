@@ -48,7 +48,7 @@ US-based collective actions from workers in the tech industry from Collective Ac
 * [speech-bubble by Alex Fuller from the Noun Project](https://thenounproject.com)
 * [Fist by matias porta lezcano from the Noun Project](https://thenounproject.com)
 * [Warning by Dillon Arloff from the Noun Project](https://thenounproject.com)
-* [Tech by Icongeek26 from the Noun Project](https://thenounproject.com/)
+* [Power by Yoteyo from the Noun Project](https://thenounproject.com/search/?q=power&i=1711145)
 
 ### Misc. sources
 * [U.S. City & State Data from Pareto Software, LLC.](https://simplemaps.com/data/us-cities)

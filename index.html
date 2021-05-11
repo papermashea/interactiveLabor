@@ -22,31 +22,56 @@
       <div id="descriptionText">
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       </div>
+
       <div id="key">
-        <input type="checkbox" id="markers" name="events" checked>
-            <label for="events">
-              <span>Events</span>
-            </label>
-        <input type="checkbox" id="markers" name="landmarks" checked>
-            <label for="landmarks">
-              <span>Landmarks</span>
-            </label>
-        <input type="checkbox" id="markers" name="leaders" checked>
-            <label for="leaders">
-              <span>Leaders</span>
-            </label>
-        <input type="checkbox" id="markers" name="orgs" checked>
-            <label for="orgs">
-              <span>Organizations</span>
-            </label>                        
-        <input type="checkbox" id="markers" name="strikes" checked>
-            <label for="strikes">
-              <span>Strikes</span>
-            </label>
-        <input type="checkbox" id="markers" name="tech" checked>
-            <label for="tech">
-              <span>Tech Collective Action</span>
-            </label>
+        <div class="pin">
+          <img src="./images/strikeIcon.png" id="strikeIcon">
+              <label class="strikes"for="strikes">
+                <span>Strikes</span><a href="https://www.bls.gov/web/wkstp/monthly-listing.htm" id="footnote" target="_blank">1</a>
+              </label>
+          <input type="checkbox" id="strikes" name="strikes" checked>
+        </div>
+
+        <div class="pin">
+          <img src="./images/orgIcon.png" id="orgIcon">
+              <label for="orgs">
+                <span>Organizations</span><a href="https://depts.washington.edu/iww/locals.shtml" id="footnote" target="_blank">2</a>
+              </label>                        
+          <input type="checkbox" id="orgs" name="orgs" checked>
+        </div>
+
+        <div class="pin">
+          <img src="./images/eventIcon.png" id="eventIcon">
+              <label for="events">
+                <span>Major events</span><a href="https://aflcio.org/about-us/history" id="footnote" target="_blank">3,</a><a href="https://depts.washington.edu/iww/yearbook_intro.shtml" id="footnote" target="_blank">4</a>
+              </label>
+          <input type="checkbox" id="events" name="events" checked>
+        </div>
+
+        <div class="pin">
+          <img src="./images/leaderIcon.png" id="leaderIcon">
+              <label for="leaders">
+                <span>Movement leaders</span><a href="https://aflcio.org/about-us/history" id="footnote" target="_blank">5</a>
+              </label>
+          <input type="checkbox" id="leaders" name="leaders" checked>
+        </div>
+
+        <div class="pin">
+          <img src="./images/techIcon.png" id="techIcon">
+              <label for="tech">
+                <span>Tech collective action</span><a href="https://collectiveaction.tech/" id="footnote" target="_blank">6</a>
+              </label>
+          <input type="checkbox" id="tech" name="tech" checked>
+        </div>
+
+        <div class="pin">
+          <img src="./images/landIcon.png" id="landIcon">
+              <label for="landmarks">
+                <span>Labor landmarks</span><a href="https://www.laborheritage.org/inventory-of-american-labor-landmarks/" id="footnote" target="_blank">7</a>
+              </label>
+          <input type="checkbox" id="landmarks" name="landmarks" checked>
+        </div>
+
         </div>
       </div>
    </div>  
@@ -66,8 +91,9 @@
   <script src='https://api.mapbox.com/mapbox.js/v3.3.1/mapbox.js'></script>
 
   <!-- Load scripts -->
-  <script src='scripts/input.js' type=""></script> 
   <script src='scripts/script.js' type=""></script> 
+  <script src='scripts/input.js' type=""></script> 
+
 
 </body>
 </html>

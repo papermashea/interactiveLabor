@@ -8,23 +8,14 @@ body {
 	height: 100vw;
 }
 
-#map { 
+/*MAP*/
+.leaflet-control-container {
 	position: absolute; 
 	top:0; 
 	bottom:0; 
 	right:0; 
 	left:0; 
-	width: 100%;
-	z-index: 1;
-}
-
-.leaflet-control-container {
-/*	position: absolute; 
-	top:0; 
-	bottom:0; 
-	right:0; 
-	left:0; 
-	z-index: 4;*/
+	z-index: 4;
 	display: none;
 }
 
@@ -32,19 +23,32 @@ body {
 	border: 2px solid #fff;
 }
 
-.leaflet-popup-content-wrapper a {
+.leaflet-popup {
+	border: 2px solid #fff;
+}
+
+a.leaflet-popup-close-button {
+	background-color: #fff!important;
+	color: #000!important;
+	padding: 10px; 
+}
+
+/*.leaflet-popup-content-wrapper {
 	color: #000;
 	background: none;
-}
+}*/
 
 img.label {
 	width: 20px;
 	height: auto;
 }
 
+
+/*INTRO TEXT AND SIDEBAR*/
+
 .sidebar {
-	width: 100%;
-	height: 20vh;
+	width: 25%;
+	height: 100%;
 	position: absolute; 
 	top:0; 
 	bottom:0; 
@@ -53,8 +57,8 @@ img.label {
 	z-index: 2;
 	margin: 0;
 	padding: 2%;
-	background-color: rgba(0,0,0,0.8);
-	color: #fff;
+	background-color: rgba(255,255,255,0.8);
+	color: #000;
 	box-shadow: 4px 4px 4px .5px rgba(0, 0, 0, 0.2);
 }
 
@@ -62,71 +66,80 @@ img.label {
 	width: 75%;
 	height: 100%;
 	padding: 2%;
-
 }
 
-
-
-/*.leaflet-popup-tip-container {
-	display: none;
-}*/
-
-/*img.eventIcon {
-	display: none;
+#map { 
+	position: absolute; 
+	top:0; 
+	bottom:0; 
+	right:0; 
+	left:0; 
+	width: 100%;
+	height: 100%;
+	z-index: 1;
 }
 
-img.landIcon {
-	display: none;
+#key {
+	color: #000;
 }
 
-img.leaderIcon {
-	display: none;
+#key img {
+	height: 30px;
+	width: auto;
+	padding: 5px 10px;
+	vertical-align: middle;
 }
 
-img.strikeIcon {
-	display: none;
-}*/
-
-/*img.orgIcon {
-	display: none;
+.pin {
+	width: 100%;
+	height: 70px;
+	padding: 10px 0;
+	vertical-align: middle;
 }
 
-img.techIcon {
-	display: none;
-}*/
 
 /* TYPOGRAPHY */
 h1 {
 	font-family: merriweather, serif;
 	font-weight: 700;
 	font-style: normal;
-	font-size: 2em;
+	font-size: 2.6em;
 }
 
 h2 {
 	font-family: merriweather, serif;
-	font-weight: 700;
+	font-weight: 400;
 	font-style: italic;
-	font-size: 1.5em;	
+	font-size: 1.4em;	
 }
 
-h3, #key {
+h3 {
 	font-family: merriweather, serif;
 	font-weight: 700;
+	font-style: normal;
+	font-size: 1.2em;
+	line-height: 1;	
+}
+
+h4, #key {
+	font-family: merriweather, serif;
+	font-weight: 400;
 	font-style: normal;
 	font-size: 1em;	
 }
 
-h4 {
-	font-family: merriweather, serif;
-	font-weight: 700;
+p {
+	font-family: fieldwork-hum, sans-serif;
+	font-weight: 100;
 	font-style: normal;
-	font-size: .75em;	
+	font-size: 1em;
+	line-height: 1.5;	
 }
 
-p {
-	font-family: merriweather, serif;
-	font-weight: 400;
-	font-style: normal;
-	font-size: .75em;	
+a#footnote {
+	padding: 3px;
+	font-style: italic;
+	text-decoration: none;
+	vertical-align: super;
+	font-size: .6em;
 }
